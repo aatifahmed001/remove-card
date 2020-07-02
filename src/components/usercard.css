@@ -1,0 +1,46 @@
+body{
+    background: radial-gradient(#e5e5e5 #fff #e5e5e5);
+}
+.container{
+    width: 100%;
+}
+.card{
+    width: 20rem;
+    border-radius: 10px!important;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5) !important;
+    transition: all .5s;
+}
+
+.card-text{
+    font-size: .8rem;
+    padding: .5rem;
+}
+.container-fluid{
+    padding:1rem 0;
+}
+.overflow{
+    overflow: hidden;
+}
+.card-img-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+.card-img-top:hover{
+    transform: scale(1.8);
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-left: 190px !important;
+    line-height: 0;
+}
+h4{
+    color: blueviolet;
+}
